@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginHorizontal="10dp"
+    android:id="@+id/layout_files"
+    android:background="@color/color_files"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/iv_files"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/ic_excel" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name_files"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="xlsx_28092021_120212"
+            android:textColor="@color/color_text_files"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/capacity_files"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10.54MB"
+            android:textColor="@color/color_text"
+            android:textSize="10sp"
+            android:layout_below="@id/name_files"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:id="@+id/date_files"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="04.07.2022"
+            android:textColor="@color/color_text"
+            android:textSize="10sp"
+            android:layout_below="@id/name_files"
+            android:layout_toRightOf="@id/capacity_files"/>
+    </RelativeLayout>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="100dp"
+            android:background="@color/color_files"
+            android:src="@drawable/ic_favorite" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:background="@color/color_files"
+            android:src="@drawable/ic_more" />
+</LinearLayout>

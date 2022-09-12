@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Excel Reader</string>
+    <string name="search">Search files</string>
+    <string name="btn_AllDocuments">All Documents</string>
+    <string name="btn_Recent">Recent</string>
+    <string name="btn_Favourite">Favourite</string>
+    <string name="txt_Settings">Settings</string>
+    <string name="txt_Go_Premium">Go Premium</string>
+    <string name="txt_Rate_App">Rate App</string>
+    <string name="txt_Share_App">Share App</string>
+    <string name="txt_Language">Language</string>
+    <string name="txt_Feedback">Feedback</string>
+    <string name="txt_Privacy_Policy">Privacy Policy</string>
+    <string name="txt_German">German</string>
+    <string name="txt_Chinese">Chinese</string>
+    <string name="txt_English">English</string>
+    <string name="txt_Bulgarian">Bulgarian</string>
+    <string name="txt_French">French</string>
+    <string name="txt_Greek">Greek</string>
+    <string name="txt_Indonesian">Indonesian</string>
+    <string name="txt_Italy">Italy</string>
+    <string name="txt_Vietnamese">Vietnamese</string>
+</resources>
